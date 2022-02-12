@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none; /* Decoração de texto nenhum */
+}
+
+body {
+  font-size: 100%; /* Tamanho da fonte  */
+  background: #15161b;
+}
+
+.cabecalho-logo {
+  display: block;
+  margin: 0 auto;
+  padding: 62px;
+  padding-bottom: 120px;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+}
+
+.conteudo-principal-escrito-texto {
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 113.7%;
+  color: #ffffff;
+}
+
+.conteudo-principal-escrito-titulo {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+
+  line-height: 113.7%;
+  color: #ffffff;
+  font-size: 68px;
+}
+
+.conteudo-principal-imagem {
+  width: 724px;
+  height: 447px;
+  margin-right: 200px;
+}
+
+.conteudo-principal-escrito-botao {
+  margin-top: 30px;
+  margin-right: 150px;
+  border-radius: 5px;
+  width: 280px;
+  height: 52px;
+  border: none;
+  background: #1a7993;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 35px;
+  line-height: 52px;
+  color: #ffffff;
+}
