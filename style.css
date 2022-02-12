@@ -17,6 +17,7 @@ body {
   margin: 0 auto;
   padding: 62px;
   padding-bottom: 120px;
+  margin-left: 600px;
 }
 
 .conteudo-principal {
@@ -58,8 +59,8 @@ body {
   margin-top: 30px;
   margin-right: 150px;
   border-radius: 5px;
-  width: 280px;
-  height: 52px;
+  width: 448px;
+  height: 97px;
   border: none;
   background: #1a7993;
   font-family: 'Oswald', sans-serif;
@@ -68,4 +69,43 @@ body {
   font-size: 35px;
   line-height: 52px;
   color: #ffffff;
+}
+
+.conteudo-secundario-titulo {
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 67px;
+  text-align: center;
+  padding: 200px;
+  color: white;
+}
+
+.conteudo-secundario-logos {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-around;
+  padding-bottom: 200px;
+}
+
+.conteudo-secundario-logo {
+  border: 1px solid white;
+}
+
+.conteudo-secundario-imagem {
+  width: 78px;
+  height: 69, 16px;
+}
+
+.conteudo-secundario-texto {
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 39px;
+  position: absolute;
+  left: 150px;
+  color: white;
 }
