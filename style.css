@@ -70,9 +70,7 @@ body {
   line-height: 52px;
   color: #ffffff;
 }
-.conteudo-secundario {
-  margin-top: 20px;
-}
+
 .conteudo-secundario-titulo {
   font-family: 'Oswald', sans-serif;
   font-style: normal;
@@ -87,17 +85,23 @@ body {
 .conteudo-secundario-logos {
   display: flex;
   flex-direction: row;
-
   justify-content: space-around;
   padding-bottom: 200px;
 }
 
 .conteudo-secundario-logo {
   border: 1px solid #2c2f37;
-  height: 254px;
-  width: 294px;
+  width: 304px;
+  height: 292px;
   background: #2c2f37;
-  border-radius: 5px;
+}
+
+.conteudo-secundario-imagem {
+  width: 78px;
+  height: 69, 16px;
+  position: absolute;
+  left: 205px;
+  bottom: -300px;
 }
 
 .conteudo-secundario-texto {
@@ -106,42 +110,144 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 39px;
-  position: absolute;
-  left: 200px;
-  bottom: -380px;
   color: white;
-}
-
-.conteudo-secundario-imagem {
   position: absolute;
-  left: 250px;
-  bottom: -300px;
+  bottom: -400px;
+  left: 155px;
 }
 
 .conteudo-secundario-logo-2 {
   border: 1px solid #2c2f37;
-  position: absolute;
-
-  height: 254px;
-  width: 294px;
+  width: 304px;
+  height: 292px;
   background: #2c2f37;
-  border-radius: 5px;
 }
-
-.conteudo-secundario-imagem-2 {
-  position: absolute;
-  left: 840px;
-  bottom: -300px;
-}
-
 .conteudo-secundario-texto-2 {
   font-family: 'Oswald', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 39px;
-  position: absolute;
-  left: 820px;
-  bottom: -380px;
   color: white;
+  position: absolute;
+  bottom: -400px;
+  left: 660px;
+}
+
+.conteudo-secundario-imagem-2 {
+  width: 78px;
+  height: 69, 16px;
+  position: absolute;
+  left: 675px;
+  bottom: -300px;
+}
+
+.conteudo-secundario-logo-3 {
+  border: 1px solid #1a7993;
+  width: 304px;
+  height: 292px;
+  background: #1a7993;
+}
+
+.conteudo-secundario-texto-3 {
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 39px;
+  color: rgb(158, 13, 13);
+  position: absolute;
+  bottom: -400px;
+  left: 1160px;
+}
+
+.conteudo-secundario-imagem-3 {
+  width: 78px;
+  height: 69, 16px;
+  position: absolute;
+  left: 1145px;
+  bottom: -300px;
+}
+
+.conteudo-secundario-logo-4 {
+  border: 1px solid #2c2f37;
+  width: 304px;
+  height: 292px;
+  background: #2c2f37;
+}
+
+.conteudo-secundario-imagem-4 {
+  width: 78px;
+  height: 69, 16px;
+  position: absolute;
+  left: 1625px;
+  bottom: -300px;
+}
+
+.conteudo-secundario-texto-4 {
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 39px;
+  color: white;
+  position: absolute;
+  bottom: -400px;
+  left: 1620px;
+}
+
+.conteudo-terceiro {
+  text-align: center;
+  padding-bottom: 500px;
+  background-color: #1a7993;
+}
+
+.back {
+  background-image: url(./img/Rectangle\ 31.png);
+  width: 400px;
+  height: 500px;
+
+  position: absolute;
+  left: 1300px;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.conteudo-terceiro-titulo {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  text-indent: -60px;
+  line-height: 121.5%;
+  position: absolute;
+  left: 200px;
+  bottom: -800px;
+  color: white;
+}
+
+.conteudo-terceiro-texto {
+  font-family: Oswald;
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  text-indent: 190px;
+  position: absolute;
+  right: 1250px;
+
+  bottom: -900px;
+}
+
+.conteudo-terceiro-botao {
+  position: absolute;
+  bottom: -1000px;
+  left: 200px;
+  width: 300px;
+  height: 80px;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
 }
