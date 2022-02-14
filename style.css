@@ -204,7 +204,7 @@ body {
 
 .back {
   background-image: url(./img/Rectangle\ 31.png);
-  width: 400px;
+  width: 500px;
   height: 500px;
 
   position: absolute;
@@ -250,4 +250,61 @@ body {
   font-weight: 500;
   font-size: 20px;
   color: black;
+}
+
+.conteudo-quarto {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.conteudo-quarto-titulo {
+  color: white;
+  font-size: 22px;
+  padding: 20px;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: bold;
+
+  line-height: 121.5%;
+}
+
+.fom-um {
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.fom-dois {
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.quarto-botao {
+  width: 300px;
+  height: 50px;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 121.5%;
+  color: #ffffff;
+  background: #1a7993;
+  border: 1px solid #1a7993;
+  border-radius: 5px 3;
+}
+
+.rodape {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.rodape-texto {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 121.5%;
+  color: white;
+  padding-bottom: 10px;
 }
